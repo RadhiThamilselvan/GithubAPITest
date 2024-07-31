@@ -24,7 +24,7 @@ import io.restassured.response.Response;
 	@Slf4j
 	public class APIHelper {
 	    RequestSpecification reqSpec;
-	    String token = "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";
+	    String token = "abcd";
 
 	    public APIHelper() {
 	        RestAssured.baseURI = EnvironmentDetails.getProperty("baseURL");
